@@ -20,10 +20,6 @@ public class baseClass {
 	public void AppiumTest() throws MalformedURLException, InterruptedException
 	{ 
 		UiAutomator2Options options = new UiAutomator2Options();
-		
-		 //added to accept android permissions
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setCapability("autoGrantPermissions", true);
 
 		
 		options.setApp("//Users//proffatai//Documents//Appium projects//Boomplay_Appium_Automation//src//resources//boomplay.apk");
