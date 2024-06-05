@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-05T17:43:43 WAT" name="Default suite" finished-at="2024-06-05T17:44:02 WAT" duration-ms="18990">
+  <suite started-at="2024-06-05T17:52:49 WAT" name="Default suite" finished-at="2024-06-05T17:53:13 WAT" duration-ms="23710">
     <groups>
     </groups>
-    <test started-at="2024-06-05T17:43:43 WAT" name="Default test" finished-at="2024-06-05T17:44:02 WAT" duration-ms="18990">
-      <class name="baseClass.AppiumBasics">
-        <test-method signature="AppiumTest()[pri:0, instance:baseClass.AppiumBasics@3e11f9e9]" started-at="2024-06-05T17:43:43 WAT" name="AppiumTest" finished-at="2024-06-05T17:44:02 WAT" duration-ms="18911" status="PASS">
+    <test started-at="2024-06-05T17:52:49 WAT" name="Default test" finished-at="2024-06-05T17:53:13 WAT" duration-ms="23710">
+      <class name="baseClass.baseClass">
+        <test-method signature="AppiumTest()[pri:0, instance:baseClass.baseClass@3e11f9e9]" started-at="2024-06-05T17:52:49 WAT" name="AppiumTest" finished-at="2024-06-05T17:53:13 WAT" duration-ms="23540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppiumTest -->
-      </class> <!-- baseClass.AppiumBasics -->
+      </class> <!-- baseClass.baseClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -26,15 +26,15 @@ public class baseClass {
 		capabilities.setCapability("autoGrantPermissions", true);
 
 		
-		options.setApp("//Users//proffatai//Documents//Appium projects//Dua_Azkar_Appium_Automation//src//resources//boomplay.apk");
+		options.setApp("//Users//proffatai//Documents//Appium projects//Boomplay_Appium_Automation//src//resources//boomplay.apk");
 		options.setDeviceName("Pixel4"); 
 		
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 		
 		driver.findElement(AppiumBy.id("com.afmobi.boomplayer:id/bt_ok")).click(); 
-		Thread.sleep(2000); 
+		Thread.sleep(4000); 
 		driver.findElement(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click();
-		Thread.sleep(2000); 
+		Thread.sleep(4000); 
 		driver.findElement(AppiumBy.id("com.afmobi.boomplayer:id/skip")).click(); 
 		
 
